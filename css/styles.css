@@ -87,6 +87,9 @@ button {
 .header {
   padding-top: 24px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
+  margin-right: 76px;
+
 }
 .header-cont {
   display: flex;
@@ -124,12 +127,13 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 76px;
+  
 }
 .adr-list {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0
 }
 
 .contact {
@@ -145,7 +149,7 @@ button {
 .hero {
   background-color: var(--main-blue);
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -153,12 +157,16 @@ button {
   line-height: 1.07;
   text-align: center;
  
-  width: 496px;
+  max-width: 496px;
 
   color: var(--mainbg);
 }
 .hero-btn {
- 
+ display: block;
+ min-width: 169px;
+ height: 56px;
+ border: none;
+ border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -177,11 +185,12 @@ button {
 /** sec one**/
 .one {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .sec1-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .sec-one-item > h3 {
   font-weight: 500;
@@ -189,11 +198,12 @@ button {
   line-height: 1.2;
   color: var(--main-blue);
   margin-bottom: 8px;
+
 }
 
 .sec-one-item {
   color: var(--maincolor);
-  width: 274px;
+  width: calc((100% - 72px) / 4);
 }
 .secone-par {
   font-size: 16px;
@@ -216,9 +226,14 @@ button {
   text-transform: capitalize;
   color: var(--main-blue);
 }
-.sec2-list {
+.sectwo-list {
   display: flex;
   gap: 24px;
+}
+
+.sectwo-item {
+
+  width: calc((100% - 48px) / 3);
 }
 /** sec three **/
 
@@ -238,12 +253,18 @@ button {
   text-transform: capitalize;
   color: var(--main-blue);
 }
-.sec3-list {
+.secthree-list {
   display: flex;
   gap: 24px;
 }
 .sec-three-img {
   margin-bottom: 32px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+}
+.sectreecont {
+padding: 32px 16px;
 }
 
 .secthree-name {
@@ -276,6 +297,12 @@ button {
   line-height: 1.5;
 
   color: var(--main-white);
+
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .footer-logo {

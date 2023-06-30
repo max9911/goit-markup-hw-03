@@ -100,8 +100,7 @@ button {
   background-color: var(--mainbg);
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .logo {
@@ -130,6 +129,8 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   
 }
 .adr-list {

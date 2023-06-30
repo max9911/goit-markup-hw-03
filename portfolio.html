@@ -20,100 +20,109 @@
   <body class="body">
     <!--TopLine-->
     <header class="header">
-      <nav class="nav">
-        <a class="logo link" href="./index.html">Web<span class="logo-span">Studio</span></a>
-
-        <ul class="list">
-          <li>
-            <a class="link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-
-      <address class="header adr">
-        <ul class="list">
-          <li>
-            <a class="header contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="header contact link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+      <div class="container header-cont">
+        <nav class="nav">
+          <a class="logo link" href="./index.html">Web<span class="logo-span">Studio</span></a>
+          <ul class="list nav-list">
+            <li>
+              <a class="link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="adr">
+          <ul class="list adr-list">
+            <li>
+              <a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a class="contact link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!--section 1 portf-->
-      <section>
-        <h1 hidden>portfolio</h1>
+      <section class="scroll-section">
+        <div class="container">
+          <h1 hidden>portfolio</h1>
+          <ul class="list portf-btn">
+            <li><button type="button" class="scroll-btn">All</button></li>
+            <li><button type="button" class="scroll-btn">Web Site</button></li>
+            <li><button type="button" class="scroll-btn">App</button></li>
+            <li><button type="button" class="scroll-btn">Design</button></li>
+            <li><button type="button" class="scroll-btn">Marketing</button></li>
+          </ul>
+        </div>
 
-        <ul class="list">
-          <li><button type="button" class="scroll-btn">All</button></li>
-          <li><button type="button" class="scroll-btn">Web Site</button></li>
-          <li><button type="button" class="scroll-btn">App</button></li>
-          <li><button type="button" class="scroll-btn">Design</button></li>
-          <li><button type="button" class="scroll-btn">Marketing</button></li>
-        </ul>
-
-        <ul class="list">
-          <li class="portf-row">
+        <ul class="list portf-list">
+          <li class="portf-item">
             <a class="link" href="">
-              <img src="./images/portfolio/r1-3.jpg" alt="interesting picture" width="360"/>
+              <img class="img-portf" src="./images/portfolio/r1-3.jpg" alt="interesting picture" width="360" />
               <h2 class="row-title">Banking App Interface Concept</h2>
               <p class="row-paragf">App</p>
             </a>
           </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r1-2.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Cashless Payment</h2>
-            <p class="row-paragf">Marketing</p>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r1-2.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Cashless Payment</h2>
+              <p class="row-paragf">Marketing</p>
             </a>
           </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r1-1.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Meditation App</h2>
-            <p class="row-paragf">App</p>
-            </a>
-          </li>
-
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r2-3.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Taxi Service</h2>
-            <p class="row-paragf">Marketing</p>
-            </a>
-          </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r2-2.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Screen Illustrations</h2>
-            <p class="row-paragf">Design</p>
-            </a>
-          </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r2-1.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Online Courses</h2>
-            <p class="row-paragf">Marketing</p>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" class="img-portf" src="./images/portfolio/r1-1.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Meditation App</h2>
+              <p class="row-paragf">App</p>
             </a>
           </li>
 
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r3-1.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Instagram Stories Concept</h2>
-            <p class="row-paragf">Design</p>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r2-3.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Taxi Service</h2>
+              <p class="row-paragf">Marketing</p>
             </a>
           </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r3-2.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Organic Food</h2>
-            <p class="row-paragf">Web Site</p>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r2-2.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Screen Illustrations</h2>
+              <p class="row-paragf">Design</p>
             </a>
           </li>
-          <li class="portf-row"><a class="link" href="">
-            <img src="./images/portfolio/r3-3.jpg" alt="interesting picture" width="360"/>
-            <h2 class="row-title">Fresh Coffee</h2>
-            <p class="row-paragf">Web Site</p>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r2-1.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Online Courses</h2>
+              <p class="row-paragf">Marketing</p>
+            </a>
+          </li>
+
+          <li class="portf-item">
+            <a class="link" href="">
+              <img src="./images/portfolio/r3-1.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Instagram Stories Concept</h2>
+              <p class="row-paragf">Design</p>
+            </a>
+          </li>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r3-2.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Organic Food</h2>
+              <p class="row-paragf">Web Site</p>
+            </a>
+          </li>
+          <li class="portf-item">
+            <a class="link" href="">
+              <img class="img-portf" src="./images/portfolio/r3-3.jpg" alt="interesting picture" width="360" />
+              <h2 class="row-title">Fresh Coffee</h2>
+              <p class="row-paragf">Web Site</p>
             </a>
           </li>
         </ul>
@@ -121,13 +130,15 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <a class="footer-logo link" href="./index.html"
-        >Web<span class="footer-logo-span">Studio</span></a
-      >
-      <p class="footer-par">
-        Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.
-      </p>
+      <div class="container">
+        <a class="footer-logo link" href="./index.html"
+          >Web<span class="footer-logo-span">Studio</span></a
+        >
+        <p class="footer-par">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

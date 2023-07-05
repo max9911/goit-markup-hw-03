@@ -82,6 +82,19 @@ button {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /** header**/
 .header {
@@ -124,13 +137,12 @@ button {
 .nav-list {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
   
 }
-.nav-list-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .adr-list {
   display: flex;
   align-items: center;
@@ -158,6 +170,7 @@ button {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  margin: 0 auto;
 
   max-width: 496px;
 
@@ -165,6 +178,7 @@ button {
 }
 .hero-btn {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
